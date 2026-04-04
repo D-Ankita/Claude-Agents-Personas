@@ -1,0 +1,948 @@
+# router-config.yml — 52 Principal Personas
+# Place this in: ~/.claude/personas/router-config.yml
+# Format: each persona has signal keywords that trigger routing
+
+personas:
+
+  # ── FRONTEND ──────────────────────────────────────────────────────────────
+
+  - id: principal-react-developer
+    path: engineering/frontend/principal-react-developer.md
+    signals:
+      - react
+      - jsx
+      - tsx
+      - useState
+      - useEffect
+      - useContext
+      - hooks
+      - redux
+      - zustand
+      - react query
+      - react router
+      - vite react
+      - react component
+      - recoil
+      - jotai
+
+  - id: principal-nextjs-engineer
+    path: engineering/frontend/principal-nextjs-engineer.md
+    signals:
+      - next.js
+      - nextjs
+      - next js
+      - app router
+      - pages router
+      - server component
+      - server actions
+      - getServerSideProps
+      - getStaticProps
+      - next/image
+      - next/router
+      - vercel deploy
+      - next config
+
+  - id: principal-vue-developer
+    path: engineering/frontend/principal-vue-developer.md
+    signals:
+      - vue
+      - vuex
+      - pinia
+      - nuxt
+      - vue router
+      - composition api
+      - options api
+      - vue component
+      - vueuse
+      - defineComponent
+      - ref vue
+      - reactive vue
+
+  - id: principal-angular-developer
+    path: engineering/frontend/principal-angular-developer.md
+    signals:
+      - angular
+      - angular cli
+      - ngmodule
+      - component decorator
+      - angular service
+      - rxjs
+      - observable
+      - ngrx
+      - angular material
+      - dependency injection angular
+      - angular routing
+      - angular forms
+
+  - id: principal-css-specialist
+    path: engineering/frontend/principal-css-specialist.md
+    signals:
+      - css
+      - scss
+      - sass
+      - tailwind
+      - styled components
+      - css modules
+      - flexbox
+      - css grid
+      - css animation
+      - css variable
+      - responsive design
+      - media query
+      - postcss
+      - css in js
+
+  - id: principal-web-performance-engineer
+    path: engineering/frontend/principal-web-performance-engineer.md
+    signals:
+      - web performance
+      - core web vitals
+      - lighthouse
+      - lcp
+      - cls
+      - fid
+      - inp
+      - ttfb
+      - bundle size
+      - code splitting
+      - lazy loading
+      - performance budget
+      - web vitals
+
+  - id: principal-accessibility-engineer
+    path: engineering/frontend/principal-accessibility-engineer.md
+    signals:
+      - accessibility
+      - a11y
+      - wcag
+      - aria
+      - screen reader
+      - keyboard navigation
+      - focus management
+      - color contrast
+      - alt text
+      - semantic html
+      - axe
+      - accessible
+
+  - id: principal-design-system-engineer
+    path: engineering/frontend/principal-design-system-engineer.md
+    signals:
+      - design system
+      - component library
+      - storybook
+      - design token
+      - ui kit
+      - figma tokens
+      - theme system
+      - monorepo components
+      - style guide
+
+  # ── BACKEND ───────────────────────────────────────────────────────────────
+
+  - id: principal-python-developer
+    path: engineering/backend/principal-python-developer.md
+    signals:
+      - python
+      - django
+      - flask
+      - fastapi
+      - sqlalchemy
+      - celery
+      - pydantic
+      - pytest
+      - asyncio
+      - pip
+      - poetry python
+      - uvicorn
+      - starlette
+
+  - id: principal-nodejs-developer
+    path: engineering/backend/principal-nodejs-developer.md
+    signals:
+      - node.js
+      - nodejs
+      - express
+      - fastify
+      - nestjs
+      - npm
+      - yarn
+      - typescript node
+      - jest node
+      - prisma
+      - typeorm
+      - sequelize
+
+  - id: principal-java-developer
+    path: engineering/backend/principal-java-developer.md
+    signals:
+      - java
+      - spring boot
+      - spring framework
+      - maven
+      - gradle
+      - hibernate
+      - jpa
+      - junit
+      - mockito
+      - quarkus
+      - micronaut
+      - jakarta ee
+
+  - id: principal-golang-developer
+    path: engineering/backend/principal-golang-developer.md
+    signals:
+      - golang
+      - go lang
+      - go module
+      - goroutine
+      - go routine
+      - gin framework
+      - echo go
+      - fiber go
+      - go test
+      - go context
+      - gorm
+      - go interface
+
+  - id: principal-rust-developer
+    path: engineering/backend/principal-rust-developer.md
+    signals:
+      - rust
+      - cargo
+      - ownership rust
+      - borrow checker
+      - lifetimes rust
+      - tokio
+      - actix
+      - axum rust
+      - trait rust
+      - rust async
+      - wasm rust
+      - unsafe rust
+
+  - id: principal-dotnet-developer
+    path: engineering/backend/principal-dotnet-developer.md
+    signals:
+      - dotnet
+      - .net
+      - c#
+      - asp.net
+      - entity framework
+      - blazor
+      - maui
+      - nuget
+      - linq
+      - dependency injection .net
+      - azure functions dotnet
+      - minimal api
+
+  - id: principal-ruby-developer
+    path: engineering/backend/principal-ruby-developer.md
+    signals:
+      - ruby
+      - rails
+      - ruby on rails
+      - activerecord
+      - rspec
+      - rubygems
+      - bundler
+      - sidekiq
+      - devise
+      - capistrano
+      - sinatra
+
+  - id: principal-php-developer
+    path: engineering/backend/principal-php-developer.md
+    signals:
+      - php
+      - laravel
+      - symfony
+      - composer
+      - eloquent
+      - doctrine
+      - phpunit
+      - wordpress plugin
+      - blade template
+      - php artisan
+      - slim php
+
+  - id: principal-graphql-developer
+    path: engineering/backend/principal-graphql-developer.md
+    signals:
+      - graphql
+      - apollo server
+      - apollo client
+      - graphql schema
+      - resolver
+      - mutation graphql
+      - graphql subscription
+      - dataloader
+      - hasura
+      - graphql federation
+      - type-graphql
+      - nexus graphql
+
+  # ── DATABASE ──────────────────────────────────────────────────────────────
+
+  - id: principal-postgresql-dba
+    path: engineering/database/principal-postgresql-dba.md
+    signals:
+      - postgresql
+      - postgres
+      - pg
+      - psql
+      - plpgsql
+      - postgres index
+      - vacuum
+      - explain analyze
+      - postgres replication
+      - logical replication
+      - pg_stat
+      - timescaledb
+
+  - id: principal-mysql-dba
+    path: engineering/database/principal-mysql-dba.md
+    signals:
+      - mysql
+      - mariadb
+      - innodb
+      - mysql index
+      - mysql replication
+      - binlog
+      - mysql explain
+      - percona
+      - xtrabackup
+      - proxysql
+      - mysql query
+      - mysql schema
+
+  - id: principal-mongodb-developer
+    path: engineering/database/principal-mongodb-developer.md
+    signals:
+      - mongodb
+      - mongoose
+      - mongo query
+      - aggregation pipeline
+      - mongodb index
+      - atlas
+      - bson
+      - mongodb replica
+      - sharding mongo
+      - mongo schema
+      - mongodb compass
+
+  - id: principal-redis-engineer
+    path: engineering/database/principal-redis-engineer.md
+    signals:
+      - redis
+      - redis cache
+      - redis pub sub
+      - redis stream
+      - redis cluster
+      - lua redis
+      - redis sentinel
+      - ioredis
+      - redis om
+      - cache invalidation
+      - redis data structure
+      - keydb
+
+  - id: principal-database-architect
+    path: engineering/database/principal-database-architect.md
+    signals:
+      - database design
+      - data modeling
+      - er diagram
+      - schema design
+      - database architecture
+      - oltp vs olap
+      - data warehouse
+      - normalization
+      - database migration
+      - polyglot persistence
+      - database selection
+      - cqrs database
+
+  # ── QA ────────────────────────────────────────────────────────────────────
+
+  - id: principal-python-qa-engineer
+    path: engineering/qa/principal-python-qa-engineer.md
+    signals:
+      - pytest
+      - python test
+      - selenium python
+      - playwright python
+      - behave
+      - robot framework
+      - python mock
+      - unittest
+      - hypothesis testing
+      - python fixture
+      - coverage python
+
+  - id: principal-javascript-qa-engineer
+    path: engineering/qa/principal-javascript-qa-engineer.md
+    signals:
+      - jest
+      - cypress
+      - playwright js
+      - vitest
+      - testing library
+      - react testing
+      - e2e test javascript
+      - mocha
+      - chai
+      - storybook test
+      - msw mock
+      - test coverage js
+
+  - id: principal-java-qa-engineer
+    path: engineering/qa/principal-java-qa-engineer.md
+    signals:
+      - junit
+      - mockito
+      - testng
+      - spring test
+      - java test
+      - selenium java
+      - cucumber java
+      - testcontainers
+      - assertj
+      - jacoco
+      - spring boot test
+      - java mock
+
+  - id: principal-performance-tester
+    path: engineering/qa/principal-performance-tester.md
+    signals:
+      - load test
+      - performance test
+      - jmeter
+      - gatling
+      - k6
+      - locust
+      - stress test
+      - spike test
+      - throughput test
+      - latency test
+      - benchmark
+      - performance baseline
+
+  - id: principal-security-tester
+    path: engineering/qa/principal-security-tester.md
+    signals:
+      - penetration test
+      - pentest
+      - security test
+      - owasp zap
+      - burp suite
+      - vulnerability scan
+      - security audit
+      - dast
+      - fuzz test
+      - exploit test
+      - security regression
+
+  - id: principal-mobile-qa-engineer
+    path: engineering/qa/principal-mobile-qa-engineer.md
+    signals:
+      - mobile test
+      - appium
+      - xcuitest
+      - espresso test
+      - detox test
+      - mobile automation
+      - ios test
+      - android test
+      - flutter test
+      - device farm
+      - mobile e2e
+
+  - id: principal-qa-architect
+    path: engineering/qa/principal-qa-architect.md
+    signals:
+      - test strategy
+      - test architecture
+      - qa architecture
+      - test pyramid
+      - test framework design
+      - quality strategy
+      - test plan
+      - test coverage strategy
+      - testing approach
+      - qa program
+      - test automation framework
+
+  # ── DEVOPS ────────────────────────────────────────────────────────────────
+
+  - id: principal-devops-engineer
+    path: engineering/devops/principal-devops-engineer.md
+    signals:
+      - devops
+      - ci/cd
+      - pipeline
+      - github actions
+      - gitlab ci
+      - jenkins
+      - circleci
+      - deployment
+      - docker
+      - containerize
+      - build pipeline
+      - devops architecture
+
+  - id: principal-kubernetes-engineer
+    path: engineering/devops/principal-kubernetes-engineer.md
+    signals:
+      - kubernetes
+      - k8s
+      - kubectl
+      - helm
+      - pod
+      - deployment yaml
+      - kubernetes service
+      - ingress controller
+      - namespace kubernetes
+      - kustomize
+      - argocd
+      - flux gitops
+      - istio
+      - kubernetes rbac
+
+  - id: principal-terraform-engineer
+    path: engineering/devops/principal-terraform-engineer.md
+    signals:
+      - terraform
+      - infrastructure as code
+      - iac
+      - tfstate
+      - terraform module
+      - terraform plan
+      - terraform apply
+      - hcl
+      - pulumi
+      - opentofu
+      - terragrunt
+      - terraform provider
+
+  - id: principal-aws-architect
+    path: engineering/devops/principal-aws-architect.md
+    signals:
+      - aws
+      - amazon web services
+      - ec2
+      - s3 bucket
+      - lambda
+      - ecs
+      - eks aws
+      - rds aws
+      - cloudformation
+      - cdk aws
+      - vpc aws
+      - iam aws
+      - cloudwatch
+      - api gateway aws
+
+  - id: principal-gcp-engineer
+    path: engineering/devops/principal-gcp-engineer.md
+    signals:
+      - gcp
+      - google cloud
+      - gke
+      - cloud run
+      - bigquery
+      - cloud functions
+      - pubsub
+      - cloud storage
+      - terraform gcp
+      - gcp iam
+      - cloud sql
+      - vertex ai
+      - dataflow
+
+  - id: principal-azure-engineer
+    path: engineering/devops/principal-azure-engineer.md
+    signals:
+      - azure
+      - microsoft azure
+      - azure devops
+      - aks
+      - azure functions
+      - cosmos db
+      - azure storage
+      - azure ad
+      - bicep
+      - azure pipelines
+      - azure container
+      - app service azure
+
+  - id: principal-platform-engineer
+    path: engineering/devops/principal-platform-engineer.md
+    signals:
+      - platform engineering
+      - internal developer platform
+      - idp
+      - backstage
+      - developer portal
+      - golden path
+      - platform team
+      - self-service infrastructure
+      - developer experience
+      - paved road
+      - platform as a product
+
+  - id: principal-sre-engineer
+    path: engineering/devops/principal-sre-engineer.md
+    signals:
+      - sre
+      - site reliability
+      - slo
+      - sla
+      - sli
+      - error budget
+      - incident management
+      - postmortem
+      - on-call
+      - runbook
+      - chaos engineering
+      - reliability engineering
+      - toil
+
+  # ── DATA & ML ─────────────────────────────────────────────────────────────
+
+  - id: principal-data-scientist
+    path: engineering/data-ml/principal-data-scientist.md
+    signals:
+      - data science
+      - machine learning model
+      - scikit-learn
+      - pandas
+      - numpy
+      - jupyter
+      - statistical analysis
+      - feature engineering
+      - model evaluation
+      - cross validation
+      - hypothesis test stats
+      - regression model
+      - classification model
+
+  - id: principal-ml-engineer
+    path: engineering/data-ml/principal-ml-engineer.md
+    signals:
+      - mlops
+      - ml pipeline
+      - model serving
+      - model deployment
+      - pytorch
+      - tensorflow
+      - mlflow
+      - feature store
+      - model registry
+      - training pipeline
+      - inference
+      - kubeflow
+      - model monitoring
+
+  - id: principal-llm-engineer
+    path: engineering/data-ml/principal-llm-engineer.md
+    signals:
+      - llm
+      - large language model
+      - fine tuning
+      - rag
+      - retrieval augmented
+      - prompt engineering
+      - langchain
+      - llamaindex
+      - openai api
+      - anthropic api
+      - embeddings
+      - vector database
+      - llm evaluation
+      - agent framework
+
+  - id: principal-data-engineer
+    path: engineering/data-ml/principal-data-engineer.md
+    signals:
+      - data pipeline
+      - etl
+      - elt
+      - airflow
+      - data engineering
+      - kafka
+      - data ingestion
+      - data lake
+      - data lakehouse
+      - delta lake
+      - iceberg
+      - data orchestration
+
+  - id: principal-dbt-analyst
+    path: engineering/data-ml/principal-dbt-analyst.md
+    signals:
+      - dbt
+      - data build tool
+      - dbt model
+      - dbt test
+      - dbt macro
+      - analytics engineering
+      - dbt cloud
+      - dbt core
+      - data transformation
+      - dimensional modeling
+      - mart model
+      - staging model
+
+  - id: principal-sql-analyst
+    path: engineering/data-ml/principal-sql-analyst.md
+    signals:
+      - sql query
+      - sql optimization
+      - window function
+      - cte
+      - sql performance
+      - query plan
+      - sql analytics
+      - snowflake
+      - redshift
+      - bigquery sql
+      - complex join
+      - sql aggregation
+
+  - id: principal-spark-engineer
+    path: engineering/data-ml/principal-spark-engineer.md
+    signals:
+      - apache spark
+      - pyspark
+      - spark sql
+      - spark streaming
+      - spark cluster
+      - databricks
+      - spark optimization
+      - rdd
+      - dataframe spark
+      - spark partition
+      - structured streaming
+
+  - id: principal-data-architect
+    path: engineering/data-ml/principal-data-architect.md
+    signals:
+      - data architecture
+      - data mesh
+      - data fabric
+      - data strategy
+      - data platform
+      - data warehouse design
+      - lakehouse architecture
+      - data governance
+      - data catalog
+      - data lineage
+      - master data management
+      - data domain
+
+  # ── MOBILE ────────────────────────────────────────────────────────────────
+
+  - id: principal-ios-developer
+    path: engineering/mobile/principal-ios-developer.md
+    signals:
+      - ios
+      - swift
+      - swiftui
+      - uikit
+      - xcode
+      - cocoapods
+      - swift package
+      - swiftui view
+      - combine swift
+      - core data ios
+      - ios app
+      - apple platform
+      - watchos
+      - tvos
+
+  - id: principal-android-developer
+    path: engineering/mobile/principal-android-developer.md
+    signals:
+      - android
+      - kotlin
+      - jetpack compose
+      - android studio
+      - gradle android
+      - viewmodel
+      - coroutines android
+      - room database
+      - retrofit android
+      - hilt android
+      - android lifecycle
+      - flow android
+      - compose ui
+
+  - id: principal-react-native-developer
+    path: engineering/mobile/principal-react-native-developer.md
+    signals:
+      - react native
+      - expo
+      - metro bundler
+      - react navigation
+      - native module
+      - platform channel rn
+      - reanimated
+      - gesture handler
+      - eas build
+      - hermes
+      - flipper
+      - react native performance
+
+  - id: principal-flutter-developer
+    path: engineering/mobile/principal-flutter-developer.md
+    signals:
+      - flutter
+      - dart
+      - widget flutter
+      - bloc flutter
+      - riverpod
+      - flutter pub
+      - getx flutter
+      - flutter navigator
+      - flutter animation
+      - platform channel flutter
+      - flutter build
+      - go router
+
+  # ── SECURITY ──────────────────────────────────────────────────────────────
+
+  - id: principal-appsec-engineer
+    path: engineering/security/principal-appsec-engineer.md
+    signals:
+      - sql injection
+      - xss
+      - csrf
+      - ssrf
+      - security vulnerability
+      - owasp
+      - penetration test app
+      - security code review
+      - authentication security
+      - authorization security
+      - jwt security
+      - input validation
+      - security scan
+
+  - id: principal-cloud-security-engineer
+    path: engineering/security/principal-cloud-security-engineer.md
+    signals:
+      - cloud security
+      - iam security
+      - s3 security
+      - security group
+      - vpc security
+      - cloud misconfiguration
+      - cspm
+      - guardduty
+      - security hub
+      - wiz
+      - cloud posture
+      - least privilege
+      - zero trust
+
+  - id: principal-security-architect
+    path: engineering/security/principal-security-architect.md
+    signals:
+      - security architecture
+      - threat model
+      - security design
+      - zero trust architecture
+      - security program
+      - risk assessment
+      - nist csf
+      - security framework
+      - enterprise security
+      - security strategy
+      - defense in depth
+      - security roadmap
+
+  # ── BUSINESS & STRATEGY ──────────────────────────────────────────────────
+
+  - id: engineering-manager
+    path: business/engineering-manager.md
+    signals:
+      - engineering manager
+      - em
+      - 1:1
+      - one on one
+      - hiring
+      - performance review
+      - team building
+      - sprint planning
+      - velocity
+      - team health
+      - promotion
+      - pip
+
+  - id: agile-coach
+    path: business/agile-coach.md
+    signals:
+      - scrum
+      - agile
+      - kanban
+      - retrospective
+      - retro
+      - sprint
+      - standup
+      - ceremony
+      - velocity
+      - story points
+      - burndown
+      - scrum master
+      - agile transformation
+
+  - id: solutions-architect
+    path: business/solutions-architect.md
+    signals:
+      - solutions architect
+      - pre-sales
+      - rfp
+      - rfi
+      - integration
+      - enterprise architecture
+      - vendor evaluation
+      - technology selection
+      - proof of concept
+      - poc
+      - technical proposal
+      - system integration
+
+  - id: business-analyst
+    path: business/business-analyst.md
+    signals:
+      - business analyst
+      - brd
+      - requirements gathering
+      - stakeholder
+      - process mapping
+      - gap analysis
+      - use case
+      - business requirements
+      - functional spec
+      - swimlane
+      - workflow analysis
+      - acceptance criteria
+
+  - id: developer-advocate
+    path: business/developer-advocate.md
+    signals:
+      - devrel
+      - developer relations
+      - developer advocate
+      - developer experience
+      - dx
+      - developer documentation
+      - api docs
+      - sdk docs
+      - tutorial writing
+      - code sample
+      - getting started guide
+      - changelog
+      - tech blog
