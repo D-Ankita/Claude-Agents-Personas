@@ -1,0 +1,56 @@
+{
+  "name": "claude-agent-personas",
+  "version": "1.0.0",
+  "description": "Intelligent persona routing OS for Claude Code",
+  "bin": {
+    "claude-agent-personas": "./dist/cli.js",
+    "persona": "./dist/cli.js"
+  },
+  "main": "./dist/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/D-Ankita/Claude-Agent-Personas.git"
+  },
+  "homepage": "https://github.com/D-Ankita/Claude-Agent-Personas#readme",
+  "bugs": {
+    "url": "https://github.com/D-Ankita/Claude-Agent-Personas/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist/",
+    "personas/",
+    "snippets/"
+  ],
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "js-yaml": "^4.1.0",
+    "tiktoken": "^1.0.15"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0",
+    "@types/js-yaml": "^4.0.9",
+    "vitest": "^1.5.0",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "persona",
+    "routing",
+    "llm"
+  ]
+}
