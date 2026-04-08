@@ -5,7 +5,6 @@
 [![npm version](https://img.shields.io/npm/v/claude-agent-personas.svg)](https://www.npmjs.com/package/claude-agent-personas)
 [![npm downloads](https://img.shields.io/npm/dw/claude-agent-personas.svg)](https://www.npmjs.com/package/claude-agent-personas)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Repository Views](https://komarev.com/ghpvc/?username=D-Ankita/Claude-Agents-Personas&color=blueviolet&style=flat-square)](https://github.com/D-Ankita/Claude-Agents-Personas)
 
 ---
 
